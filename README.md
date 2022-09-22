@@ -1,13 +1,13 @@
 # Documentation
-A repository for assignment in Mobile Programming Class.
+A repository for assignment in Mobile Programming Class.<br>
 This is a simple android app about cashier system where user can input some information
 and get the receipt.
 
 ## Prerequisites
-Android version: 11/12 (S)
-Android Studio version: latest
-Firebase SDK version: latest
-Minimum API SDK: 30
+Android version: 11/12 (S) <br>
+Android Studio version: latest <br>
+Firebase SDK version: latest <br>
+Minimum API SDK: 30 <br>
 
 #Screenshot
 
