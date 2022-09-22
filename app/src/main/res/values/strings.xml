@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">cashier</string>
+    <string name="kasir_indoapril">Kasir IndoApril</string>
+    <string name="nama">NAMA</string>
+    <string name="total">TOTAL</string>
+    <string name="proses">PROSES</string>
+    <string name="clear">CLEAR</string>
+    <string name="hitung">hitung</string>
+    <string name="bayar">BAYAR</string>
+    <string name="jumlah">JUMLAH</string>
+    <string name="harga">HARGA</string>
+    <string name="barang">*BARANG*</string>
+    <string name="terima_kasih_atas_kunjungan_anda">Terima Kasih Atas Kunjungan Anda</string>
+    <string name="kembali">Kembali</string>
+    <string name="quit">QUIT</string>
+    <string name="qty">Qty</string>
+    <string name="rp">Rp</string>
+    <string name="barang_yang_sudah_dibeli_tidak_dapat_dikembalikan_lagi">Barang yang sudah Dibeli Tidak Dapat Dikembalikan Lagi</string>
+    <string name="star">******************************************************************</string>
+    <string name="jalan_kapten_udin_no_413_jakarta_utara">Jalan Kapten Udin No. 413, Jakarta Utara</string>
+    <string name="stars">******************************************************************</string>
+    <string name="indoapril">IndoApril</string>
+</resources>

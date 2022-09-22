@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StrukActivity">
+
+    <TextView
+        android:id="@+id/txtSubTitleStruk"
+        android:layout_width="306dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/jalan_kapten_udin_no_413_jakarta_utara"
+        android:textColor="#0027FF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleStruk" />
+
+    <TextView
+        android:id="@+id/txtClosingStruk0"
+        android:layout_width="252dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/terima_kasih_atas_kunjungan_anda"
+        android:textColor="#0027FF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDecor2" />
+
+    <TextView
+        android:id="@+id/txtClosingStruk1"
+        android:layout_width="250dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="82dp"
+        android:text="@string/barang_yang_sudah_dibeli_tidak_dapat_dikembalikan_lagi"
+        android:textAlignment="center"
+        android:textColor="#0027FF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtClosingStruk0" />
+
+    <TextView
+        android:id="@+id/txtDecor"
+        android:layout_width="336dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="31dp"
+        android:text="@string/stars"
+        android:textColor="#0027FF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSubTitleStruk" />
+
+    <TextView
+        android:id="@+id/txtDecor2"
+        android:layout_width="336dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="31dp"
+        android:text="@string/star"
+        android:textColor="#0027FF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editKembaliStruk" />
+
+    <TextView
+        android:id="@+id/txtTitleStruk"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="71dp"
+        android:fontFamily="cursive"
+        android:text="@string/indoapril"
+        android:textColor="#ED1515"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtQuantityStruk"
+        android:layout_width="35dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="26dp"
+        android:text="@string/qty"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtNamaStruk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDecor" />
+
+    <TextView
+        android:id="@+id/txtNamaStruk"
+        android:layout_width="130dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/nama"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtHargaStruk"
+        app:layout_constraintTop_toBottomOf="@+id/txtDecor" />
+
+    <TextView
+        android:id="@+id/txtHargaStruk"
+        android:layout_width="130dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/harga"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDecor" />
+
+    <EditText
+        android:id="@+id/editQuantityStruk"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="19dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/editNamaStruk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtQuantityStruk"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editNamaStruk"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/editHargaStruk"
+        app:layout_constraintTop_toBottomOf="@+id/txtNamaStruk"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editBayarStruk"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="56dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTotalStruk"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtKembaliStruk"
+        android:layout_width="96dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="7dp"
+        android:text="@string/kembali"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtRpStruk2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBayarStruk" />
+
+    <TextView
+        android:id="@+id/txtBayarStruk"
+        android:layout_width="96dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="9dp"
+        android:text="@string/bayar"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtRpStruk1"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTotalStruk" />
+
+    <EditText
+        android:id="@+id/editTotalStruk"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="56dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNamaStruk"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtRpStruk0"
+        android:layout_width="35dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/rp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTotalStruk"
+        app:layout_constraintTop_toBottomOf="@+id/editNamaStruk" />
+
+    <TextView
+        android:id="@+id/txtRpStruk1"
+        android:layout_width="35dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/rp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editBayarStruk"
+        app:layout_constraintTop_toBottomOf="@+id/txtRpStruk0" />
+
+    <TextView
+        android:id="@+id/txtRpStruk2"
+        android:layout_width="35dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/rp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editKembaliStruk"
+        app:layout_constraintTop_toBottomOf="@+id/txtRpStruk1" />
+
+    <TextView
+        android:id="@+id/txtTotalStruk"
+        android:layout_width="96dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="7dp"
+        android:text="@string/total"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtRpStruk0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editQuantityStruk" />
+
+    <EditText
+        android:id="@+id/editKembaliStruk"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="56dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editBayarStruk"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editHargaStruk"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHargaStruk"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnQuitStruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

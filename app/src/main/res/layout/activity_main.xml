@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitleStruk"
+        android:layout_width="375dp"
+        android:layout_height="71dp"
+        android:fontFamily="cursive"
+        android:text="@string/kasir_indoapril"
+        android:textColor="#DD2E2E"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSubTitle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/editNamaStruk"
+        android:layout_width="59dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/nama"
+        android:textColor="#092EF8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editNama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleStruk" />
+
+    <EditText
+        android:id="@+id/editHargaStruk"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNama"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editTotal"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnHitung"
+        app:layout_constraintTop_toBottomOf="@+id/editJumlah"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/editTotalStruk"
+        android:layout_width="61dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/total"
+        android:textColor="#072CF8"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTotal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editQuantityStruk" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/hitung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleStruk" />
+
+    <EditText
+        android:id="@+id/editBayar"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTotal"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/editBayarStruk"
+        android:layout_width="61dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/bayar"
+        android:textColor="#0027FF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editBayar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTotalStruk" />
+
+    <EditText
+        android:id="@+id/editJumlah"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editHargaStruk"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/editQuantityStruk"
+        android:layout_width="61dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/jumlah"
+        android:textColor="#0027FD"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editJumlah"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHarga" />
+
+    <TextView
+        android:id="@+id/txtHarga"
+        android:layout_width="61dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/harga"
+        android:textColor="#052AF8"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editHargaStruk"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNamaStruk" />
+
+    <TextView
+        android:id="@+id/txtSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="186dp"
+        android:text="@string/barang"
+        android:textColor="#0026FB"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleStruk" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editBayar" />
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="78dp"
+        android:text="@string/proses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editBayar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
